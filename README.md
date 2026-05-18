@@ -9,6 +9,8 @@ This showcases a practical AI application combined with an understanding of how 
 
 ## Features
 [Scan document20260508_230746.pdf](https://github.com/user-attachments/files/27978369/Scan.document20260508_230746.pdf)
+for ex
+<img width="720" height="1600" alt="Image" src="https://github.com/user-attachments/assets/8346d958-79a7-44fd-bde2-aec6818a90cc" />
 
 - **ATS Scoring** — 10-category weighted engine evaluating keyword match, formatting, contact info, sections, quantified impact, action verbs, education, experience, length, and skills depth. Includes radar chart visualization.
 - **Keyword Matching** — TF-IDF extraction with skill categorization across 9 categories (programming languages, frontend, backend, database, cloud/devops, data/ML, tools/methods, soft skills, domain). Highlights matched and missing keywords.
