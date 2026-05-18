@@ -1,6 +1,11 @@
 # AI Resume Analyzer & ATS Optimizer
 
-A full-stack web application that analyzes resumes against job descriptions using NLP and AI, providing an ATS compatibility score, keyword gap analysis, and bullet point improvement suggestions.
+A tool where users can upload their resume and:
+- Get an ATS compatibility score
+- Receive keyword suggestions based on a job description
+- Improve bullet points using AI
+
+This showcases a practical AI application combined with an understanding of how modern hiring systems (ATS) evaluate candidates.
 
 ## Features
 
