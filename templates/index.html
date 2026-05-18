@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Resume Analyzer & ATS Optimizer</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Resume Analyzer &amp; ATS Optimizer</h1>
+      <p>Upload your resume, paste a job description, and get actionable AI-powered insights</p>
+    </header>
+
+    <div class="upload-card" id="uploadCard">
+      <div class="icon">&#128196;</div>
+      <h3>Upload Resume</h3>
+      <p>Drop your resume here or click to browse (PDF or DOCX)</p>
+      <input type="file" id="resumeInput" accept=".pdf,.docx,.doc">
+    </div>
+    <div id="fileName" class="file-name" style="display:none;"></div>
+
+    <div class="jd-section">
+      <label for="jobDesc">Job Description <span class="label-hint">(optional — enables ATS scoring &amp; keyword matching)</span></label>
+      <textarea id="jobDesc" placeholder="Paste the full job description here to unlock ATS scoring, keyword matching, and skills gap analysis..."></textarea>
+    </div>
+
+    <button class="btn btn-primary" id="analyzeBtn" disabled onclick="analyze()">
+      <span>&#9889;</span> Analyze Resume
+    </button>
+
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p id="loadingText">Parsing resume, extracting keywords, calculating ATS score...</p>
+    </div>
+
+    <div class="results" id="results">
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">&#128202;</div>
+        <h3>Ready for Analysis</h3>
+        <p>Upload your resume and optionally paste a job description to see ATS scoring, keyword matching, and AI-powered bullet improvements.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
